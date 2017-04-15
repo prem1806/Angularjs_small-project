@@ -1,0 +1,386 @@
+*{
+	margin:0px;
+	padding:0px; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+    background-image: url(images/3.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+}
+
+/*home page css*/
+
+ul{
+    list-style-type: none;
+}
+.side{
+	background-color: #222;
+	height: 100%;
+	width: 6%;
+	float: left;
+	z-index: 999;
+}
+.side_nav{
+	/*background-color: #222333;*/
+	height: 50%;
+	width: 6%;
+	margin-top: 50px;
+	position: fixed;
+}
+
+.side_nav li {
+    width: 100%;
+    height: 100px;
+/*    background: #9a8383;*/
+    border-bottom: 0.5px solid rgb(171, 171, 171);
+    padding-top: 31%;
+    padding-left: 28%;
+    box-sizing: border-box;
+
+}
+.side_nav a{  
+	color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100px;
+}
+.main_block{
+	width: 94%;
+	float: left;
+}
+.left_side{
+	height: 100vh;
+	width: 50%;
+	/*background: #CAEBFC;*/
+	float: left;
+	/*background-image: url("images/home.JPG");*/
+
+}
+.name{
+    width: 35%;
+    height: 15%;
+    color: #fff;
+    margin-top: 22%;
+    margin-left: 64.99%;
+    background: #de3926;
+    text-align: center;
+    padding: 14px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+
+}
+.right_side{
+	width: 50%;
+	height: 100vh;
+	float: left;
+/*	background: #366278;*/
+}
+.right{
+	width: 90%;
+	height: 75%;
+	/*background-color: red;*/
+    margin-top: 22%;
+    /*padding: 10px;*/
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+}
+.names{
+    width: 95%;
+    height: 75%;
+}
+.right h1{
+    background-color: black;
+    width: 45%;
+    padding-top: 2.3%;
+    padding-bottom: 3.1%;
+    padding-left: 3%;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.right h2{
+    background-color: white;
+    width: 89%;
+    padding-top: 2%;
+    padding-bottom: 2.8%;
+    padding-left: 3%;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    color: black;
+}
+.social{
+    width: 60%;
+    height: 15%;
+    /*background-color: red;*/
+}
+
+.social li{
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-left: 12%;
+    padding-top: 5%;
+    /*border-right: 1px solid rgb(171, 171, 171);*/
+    /*background-color: black;*/
+}
+.social a{  
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+/* about page css*/
+
+.about{
+    width: 100%;
+    height: 100vh;
+    /*margin: auto;*/
+    background-color: #fff;
+    color: black;
+    font-family: 'Rubik', sans-serif !important;
+    opacity: 0.9;
+}
+.about_me{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 3%;
+    box-sizing: border-box;
+    /*background-color: red;*/
+}
+.about_me h1,p{
+    padding:2%;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+.tab{
+    width: 100%;
+    height: 25%;
+    padding: 2%;
+    font-family: 'Rubik', sans-serif;
+
+    /*background-color: red;*/
+}
+.fr,.sr,.tr,.four_r{
+    width: 95%;
+    height: 32%;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+
+    /*background-color: blue;*/
+}
+.icon{
+    margin-right: 10px;
+}
+.tab_left{
+    float: left;
+    font-weight: bold;
+
+}
+.tab_right{
+    float: right;
+}
+.down{
+    width: 90%;
+    height: 7%;
+    padding-left: 25%;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+.down a{
+    padding: 15px 30px;
+    margin-right: 90px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.hire{
+    background-color: red;
+}
+
+
+/*experience css*/
+
+.experience{
+    width: 100%;
+    height: 100vh;
+    /*margin: auto;*/
+    background-color: #fff;
+    color: black;
+    font-family: 'Rubik', sans-serif !important;
+    opacity: 0.9;
+    
+}
+
+.exper{
+    width: 90%;
+    height: 35%;
+    margin: auto;
+    padding-top: 3%;
+    box-sizing: border-box;
+     font-family: 'Rubik', sans-serif !important;
+    /*background-color: red;*/
+}
+.exper h1,p,span{
+    padding-left:2%; 
+    padding-top: 5px;
+    margin-bottom: 10px;  
+    box-sizing: border-box;
+}
+.exper h2{
+    padding-left: 2%;
+}
+
+.exper p,span{
+    color: #929292;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+.education{
+    width: 90%;
+    height: 27%;
+    margin: auto;
+    box-sizing: border-box;
+     font-family: 'Rubik', sans-serif !important;
+    /*background-color: red;*/
+}
+.education h1,p,span{
+    padding-left:2%;  
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+}
+.education h2{
+    padding-left:2%;
+}
+
+.education p,span{
+    color: #929292;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+.skills{
+    width: 90%;
+    height: 27%;
+    margin: auto;
+    box-sizing: border-box;
+     font-family: 'Rubik', sans-serif !important;
+    /*background-color: red;*/
+}
+.skills h1{
+    padding-left:2%;  
+    /*margin-bottom: px; */
+    box-sizing: border-box;
+}
+
+
+.skill_tab{
+    width: 80%;
+    height: 100px;
+    padding-left: 2%;
+    font-family: 'Rubik', sans-serif;
+
+    /*background-color: red;*/
+}
+.sfr,.ssr,.str,.sfour_r,.sfive_r,.sixr{
+    width: 95%;
+    height: 32%;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+
+    /*background-color: blue;*/
+}
+.icon{
+    margin-right: 10px;
+}
+.stab_left{
+    float: left;
+    font-weight: bold;
+
+}
+.stab_right{
+    float: right;
+}
+
+/*contact css*/
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    /*margin: auto;*/
+    background-color: #fff;
+    opacity: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif !important;
+    opacity: 0.9;
+    
+}
+.cont{
+    width: 90%;
+    height: 10%;
+    padding-top: 3%;
+    padding-left: 3%;
+    margin-bottom: 3%;  
+    /*background-color: red;*/
+}
+.cont h1,span{
+    padding-left:2%;
+    padding-top: 10px;  
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+}
+
+.ctab{
+    width: 90%;
+    height: 25%;
+    padding-left: 6%;
+    font-family: 'Rubik', sans-serif;
+
+    /*background-color: red;*/
+}
+.cfr,.csr,.ctr,.cfour_r{
+    width: 95%;
+    height: 32%;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+
+    /*background-color: blue;*/
+}
+.cicon{
+    margin-right: 10px;
+}
+.ctab_left{
+    float: left;
+    font-weight: bold;
+
+}
+.ctab_right{
+    float: right;
+}
